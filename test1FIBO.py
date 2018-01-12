@@ -1,6 +1,7 @@
 __author__ = 'cromox'
 
-nombor = 20
+nombor = int(input('Masukkan int = '))
+# nombor = 20
 
 ## my solution / answer
 def f(n):
