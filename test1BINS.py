@@ -20,7 +20,7 @@ def compareandshrink(mval, nlist):
             nlast = nindex - 1
         elif nlist[nindex] < mval:
             nstrt = nindex + 1
-        else:
+        elif nlist[nindex] == mval:
             return nindex + 1  ## if found (same value), return index
     return -1  ## if not found, return -1
 
