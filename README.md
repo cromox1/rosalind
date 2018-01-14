@@ -2,6 +2,8 @@
 
 http://rosalind.info/problems/list-view/?location=algorithmic-heights
 
+http://rosalind.info/users/rosli/
+
     ID	    / Title
 1)  FIBO	/ Fibonacci Numbers  (//)
 2)  BINS	/ Binary Search  (//)
