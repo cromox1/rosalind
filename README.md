@@ -3,10 +3,10 @@
 http://rosalind.info/problems/list-view/?location=algorithmic-heights
 
     ID	    / Title
-1)  FIBO	/ Fibonacci Numbers  (/)
-2)  BINS	/ Binary Search  (/)
-3)  DEG	    / Degree Array
-4)  INS	    / Insertion Sort
+1)  FIBO	/ Fibonacci Numbers  (//)
+2)  BINS	/ Binary Search  (//)
+3)  DEG	    / Degree Array  (//)
+4)  INS	    / Insertion Sort  (//)
 5)  DDEG	/ Double-Degree Array
 6)  MAJ	    / Majority Element
 7)  MER	    / Merge Two Sorted Arrays
