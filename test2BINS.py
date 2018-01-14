@@ -5,6 +5,7 @@ maksimum = 1 * 10**5
 def input_binarysearch(filename):
     with open(filename) as f:
         n, m, nlists, mlists = [line.strip().split() for line in f.readlines()]
+        f.close()
         mlist = [int(num) for num in mlists]  ### list comprehension
         nlist = [int(num) for num in nlists]
         m = [int(num) for num in m][0] # list(map(int, m))
