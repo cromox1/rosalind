@@ -11,7 +11,7 @@ http://rosalind.info/users/rosli/
 4)  INS	    / Insertion Sort  (//)
 5)  DDEG	/ Double-Degree Array
 6)  MAJ	    / Majority Element
-7)  MER	    / Merge Two Sorted Arrays
+7)  MER	    / Merge Two Sorted Arrays  (//)
 8)  2SUM	/ 2SUM
 9)  BFS	    / Breadth-First Search
 10) CC	    / Connected Components
