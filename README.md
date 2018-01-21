@@ -9,7 +9,7 @@ http://rosalind.info/users/rosli/
 2)  BINS	/ Binary Search  (//)
 3)  DEG	    / Degree Array  (//)
 4)  INS	    / Insertion Sort  (//)
-5)  DDEG	/ Double-Degree Array
+5)  DDEG	/ Double-Degree Array  (//)
 6)  MAJ	    / Majority Element  (//)
 7)  MER	    / Merge Two Sorted Arrays  (//)
 8)  2SUM	/ 2SUM   (//)
