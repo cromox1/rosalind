@@ -35,10 +35,9 @@ def inputfile(filename):
         relatedsmall = list(mdictnum[lstsmll])[0]
 
         ## remove connection of the last i's neighbour and it's associate network
-        mdictnum[lstsmll] = {}
+        mdictnum[lstsmll].remove(relatedsmall)
         mdictnum[relatedsmall].remove(lstsmll)
         # print('mdictnum[relatedsmall] = ' + str(mdictnum[relatedsmall]))
-
 
         m = len(mdictnum)
         return mdictnum, m, sortdmlist, lstsmll
@@ -60,7 +59,7 @@ if __name__ == "__main__":
             summ = 0
             for mnet in mnetx[key]:
                 summ += len(mnetx[mnet])
-            if lstsmll == 5:      ### NOT SURE ABOUT THIS!!! to get as the Question's Sample Output
+            if lstsmll == 5:      ### NOT SURE ABOUT THIS!!! to get the same as in the Question's Sample Output
                 print(summ, sep='', end=' ')
             elif lstsmll > key:
                 print(summ, sep='', end=' ')
