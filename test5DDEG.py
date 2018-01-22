@@ -22,15 +22,13 @@ def inputfile(filename):
                 mdictnum[int(vv)].update({int(kk)})
             sortdmlist.append(kk)
             sortdmlist.append(vv)
-            ## finding last i's neighbour which has only one network/connection
-            if kk > lstsmll:
-                lstsmll = kk
-            if vv > lstsmll:
-                lstsmll = vv
+            
+        ## finding last i's neighbour which has only one network/connection
         sortdmlist.sort()
         uniqnetx = list(set(sortdmlist))
+        lstsmll = uniqnetx[-1]
         # print('mdictnum = ' + str(mdictnum))
-        # print('sortdmlist = ' + str(sortdmlist))
+        # print('uniqnetx = ' + str(uniqnetx))
 
         ## finding last i's associate's neighbour
         relatedsmall = list(mdictnum[lstsmll])[0]
