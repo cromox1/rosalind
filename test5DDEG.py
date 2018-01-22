@@ -28,6 +28,7 @@ def inputfile(filename):
             if vv > lstsmll:
                 lstsmll = vv
         sortdmlist.sort()
+        uniqnetx = list(set(sortdmlist))
         # print('mdictnum = ' + str(mdictnum))
         # print('sortdmlist = ' + str(sortdmlist))
 
@@ -40,7 +41,7 @@ def inputfile(filename):
         # print('mdictnum[relatedsmall] = ' + str(mdictnum[relatedsmall]))
 
         m = len(mdictnum)
-        return mdictnum, m, sortdmlist, lstsmll
+        return mdictnum, m, uniqnetx, lstsmll
 
 if __name__ == "__main__":
     filedirectory = r'C:\Users\cromox\Desktop\newselenium\rosalind\test7_doubledegreearray'
@@ -55,7 +56,7 @@ if __name__ == "__main__":
     lstsmll = baca[3]
 
     if m <= maksimum and m == len(mnetx):
-        for key in list(set(uniqnetx)):
+        for key in uniqnetx:
             summ = 0
             for mnet in mnetx[key]:
                 summ += len(mnetx[mnet])
