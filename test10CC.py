@@ -2,9 +2,9 @@ __author__ = 'cromox'
 
 # http://rosalind.info/problems/cc/
 #
-# My algorithm works on the example and some other my own simple test cases, 
+# My algorithm works on the example and some other simple test cases, 
 # BUT FAILS on the actual problem (downloaded dataset)
-# Need to investigate WHY !!!!
+# Need investigation !!!!
 #
 
 def filetolist(filename):
