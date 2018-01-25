@@ -2,7 +2,8 @@ __author__ = 'cromox'
 
 # http://rosalind.info/problems/cc/
 #
-# My algorithm works on the example and some my own simple test cases, but fails on the actual problem (downloaded dataset)
+# My algorithm works on the example and some other my own simple test cases, 
+# BUT FAILS on the actual problem (downloaded dataset)
 # Need to investigate WHY !!!!
 #
 
