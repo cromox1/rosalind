@@ -39,3 +39,7 @@ http://rosalind.info/users/rosli/
 32) GS	    / General Sink
 33) SC	    / Semi-Connected Graph
 34) SDAG	/ Shortest Paths in DAG
+
+*Note
+
+I am using python3 ( 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 18:41:36) )
