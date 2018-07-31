@@ -37,7 +37,7 @@ def heapify(list0, end, i):
 
 def heap_sort(list0):
     end = len(list0)
-    start = end // 2 - 1 # use // instead of /
+    start = int(end / 2 ) - 1 
     for i in range(start, -1, -1):
         heapify(list0, end, i)
     for i in range(end - 1, 0, -1):
