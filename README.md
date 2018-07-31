@@ -13,16 +13,16 @@ http://rosalind.info/users/rosli/
 6)  MAJ	    / Majority Element  (//)
 7)  MER	    / Merge Two Sorted Arrays  (//)
 8)  2SUM	/ 2SUM   (//)
-9)  BFS	    / Breadth-First Search
-10) CC	    / Connected Components
+9)  BFS	    / Breadth-First Search  (//)
+10) CC	    / Connected Components  (//)
 11) HEA	    / Building a Heap
-12) MS	    / Merge Sort
+12) MS	    / Merge Sort    (//)
 13) PAR	    / 2-Way Partition
 14) 3SUM	/ 3SUM
 15) BIP	    / Testing Bipartiteness
 16) DAG	    / Testing Acyclicity
 17) DIJ	    / Dijkstra's Algorithm
-18) HS	    / Heap Sort
+18) HS	    / Heap Sort (//)
 19) INV	    / Counting Inversions
 20) PAR3	/ 3-Way Partition
 21) SQ	    / Square in a Graph
