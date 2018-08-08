@@ -51,6 +51,5 @@ data1 = heap_sort(data0)
 # print('data1 = ' + str(data1))
 
 print()
-for i in range(kk):
-    print(str(data1[i]), end=' ')
+print(*data1)
 print()
