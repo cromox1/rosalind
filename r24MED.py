@@ -51,9 +51,8 @@ data1 = heap_sort(data0)
 print('data1 = ' + str(data1))
 
 print()
-for i in range(len(data1)):
-    print(str(data1[i]), end=' ')
+print(*data1)
 print()
 
 answer = data1[kk-1]
-print('ANSWER data[%s] = ' %kk + str(answer))
+print('ANSWER / dataSORT[%s] = ' %kk + str(answer))
