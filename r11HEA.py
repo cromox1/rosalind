@@ -17,9 +17,11 @@ dataALL = inputfile(filename)
 nn = dataALL[0][0]
 dataA = [int(x) for x in dataALL[1:][0]]
 
+def swapp(list0, a, b):
+    list0[a],list0[b] = list0[b],list0[a]
+
 for i in range(1, int(nn)):
     while dataA[i] > dataA[int((i - 1)/2)]:
-        dataA[i], dataA[int((i - 1)/2)] = dataA[int((i - 1)/2)], dataA[i]
+        swapp(dataA, i, int((i - 1)/2))
         i = int((i - 1)/2)
 print(*dataA)
-
