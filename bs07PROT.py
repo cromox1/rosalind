@@ -13,7 +13,7 @@ Given: An RNA string s corresponding to a strand of mRNA (of length at most 10 k
 Return: The protein string encoded by s.
 '''
 
-codontabletxt = "UUU F      CUU L      AUU I      GUU V  \
+codontabletxt = 'UUU F      CUU L      AUU I      GUU V  \
 UUC F      CUC L      AUC I      GUC V  \
 UUA L      CUA L      AUA I      GUA V  \
 UUG L      CUG L      AUG M      GUG V  \
@@ -28,7 +28,7 @@ UAG Stop   CAG Q      AAG K      GAG E  \
 UGU C      CGU R      AGU S      GGU G  \
 UGC C      CGC R      AGC S      GGC G  \
 UGA Stop   CGA R      AGA R      GGA G  \
-UGG W      CGG R      AGG R      GGG G"
+UGG W      CGG R      AGG R      GGG G'
 ## copy from http://rosalind.info/glossary/rna-codon-table/
 
 codontable = codontabletxt.replace(' ','#').replace('###','#').replace('##','#').replace('##','#').split('#')
