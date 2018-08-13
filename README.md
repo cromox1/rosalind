@@ -50,7 +50,7 @@ Rosalind is inspired by Project Euler, Google Code Jam, and the ever growing mov
 33) SC	    / Semi-Connected Graph
 34) SDAG	/ Shortest Paths in DAG
 
-## http://rosalind.info/problems/list-view/
+## http://rosalind.info/problems/list-view/?location=bioinformatics-stronghold
 
     ID      / Title   
 1) DNA      / Counting DNA Nucleotides
