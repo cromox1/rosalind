@@ -34,6 +34,24 @@ def inputfile(filename):
         f.close()
     return xx
 
+def dict_fastaformat(seqsfasta):
+    dctdata = {}
+    for seq in seqsfasta:
+        if len(seq) > 0:
+            for i in range(len(seq)):
+                try:
+                    y = int(seq[i-1])
+                    x = seq[i]
+                    if type(y) == int and x in 'ACGT':
+                        div1 = i
+                except:
+                    pass
+            if div1 > 0:
+                key = seq[:div1]
+                value = seq[div1:]
+                dctdata[key] = value
+    return dctdata
+
 pathfile = r'C:\Users\cromox\Downloads\\'
 fileinput = 'rosalind_splc.txt'
 #pathfile = r'C:\Users\cromox\Desktop\newselenium\rosalind\\'
@@ -41,22 +59,7 @@ fileinput = 'rosalind_splc.txt'
 filename = pathfile + fileinput
 
 seqs = inputfile(filename)
-
-dctdata = {}
-for seq in seqs:
-    if len(seq) > 0:
-        for i in range(len(seq)):
-            try:
-                y = int(seq[i-1])
-                x = seq[i]
-                if type(y) == int and x in 'ACGT':
-                    div1 = i
-            except:
-                pass
-        if div1 > 0:
-            key = seq[:div1]
-            value = seq[div1:]
-            dctdata[key] = value
+dctdata = dict_fastaformat(seqs)
 print(dctdata)
 
 rnadata = []
