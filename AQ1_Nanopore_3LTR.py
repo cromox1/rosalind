@@ -29,7 +29,7 @@ def count_3char(input1):
         # print(letterscan)
 
         count={}
-        for out1 in sorted(letterscan):
+        for out1 in letterscan:     # for ordered sub-seqs --> for out1 in sorted(letterscan): 
             key,value = out1, input1.count(out1)
             count[key] = value
         # print(count)
