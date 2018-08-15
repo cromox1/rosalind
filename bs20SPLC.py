@@ -44,19 +44,19 @@ seqs = inputfile(filename)
 
 dctdata = {}
 for seq in seqs:
-    for i in range(len(seq)):
-        try:
-            y = int(seq[i-1])
-            x = seq[i]
-            if type(y) == int and x in 'ACGT':
-                div1 = i
-        except:
-            pass
     if len(seq) > 0:
-        # print(seq)
-        key = seq[:div1]
-        value = seq[div1:]
-        dctdata[key] = value
+        for i in range(len(seq)):
+            try:
+                y = int(seq[i-1])
+                x = seq[i]
+                if type(y) == int and x in 'ACGT':
+                    div1 = i
+            except:
+                pass
+        if div1 > 0:
+            key = seq[:div1]
+            value = seq[div1:]
+            dctdata[key] = value
 print(dctdata)
 
 rnadata = []
@@ -76,5 +76,3 @@ for i in range(1, len(rnatoconvert)+1):
     if i%3 == 0:
         key3 = rnatoconvert[i-3:i]
         print(codondict[key3].replace('Stop',''), end='')
-
-
