@@ -13,14 +13,14 @@ TTA: 1
 The order of the sub-sequences in the output does not matter.
 """
 
-def check_actg(input):
+def check_acgt(input):
     for chr in input:
         if chr not in 'ACGT':
             return 0
     return 1
 
 def count_3char(input1):
-    chkacgt = check_actg(input1)
+    chkacgt = check_acgt(input1)
     if chkacgt == 1:
         letterscan = []
         for i in range(len(input1)-2):
@@ -29,7 +29,7 @@ def count_3char(input1):
         # print(letterscan)
 
         count={}
-        for out1 in letterscan:
+        for out1 in sorted(letterscan):
             key,value = out1, input1.count(out1)
             count[key] = value
         # print(count)
@@ -37,7 +37,7 @@ def count_3char(input1):
         for key,value in count.items():
             print(key+": "+str(value), end='\n')
     else:
-        print(input1 + ' problem - has char other than ACGT')
+        print('Error: ' + input1 + ' have chars other than ACGT')
         
 ss = "ACTACTTACG"
 count_3char(ss)
