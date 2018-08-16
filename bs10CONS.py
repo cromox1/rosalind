@@ -64,6 +64,7 @@ for i in range(len(dctdata[firstkey])):
     mtrxrctg.append(datatwo)
     ancestor.append(carikey(data,max(datatwo)))
 
+# print(mtrxrctg)
 print()
 print(*ancestor, sep='')
 
@@ -77,6 +78,3 @@ printmatrix(mtrxrctg, 'A', 0)
 printmatrix(mtrxrctg, 'C', 1)
 printmatrix(mtrxrctg, 'G', 2)
 printmatrix(mtrxrctg, 'T', 3)
-
-
-
