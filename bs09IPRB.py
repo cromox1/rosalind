@@ -44,10 +44,6 @@ filename = pathfile + fileinput
 
 seqs = inputfile(filename)
 
-xx = [int(x) for x in seqs]
-print(xx)
-k = xx[0]
-m = xx[1]
-n = xx[2]
+(k, m, n) = (int(value) for value in seqs)
 
 mendel_first_law(k, m, n)
