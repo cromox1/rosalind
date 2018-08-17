@@ -47,6 +47,11 @@ for prot_id in uniprot_ids:
     fastalist = inputfile(prot_id + '.fasta')
     nameandseqs = trans_1unifasta(fastalist)
     seqs = nameandseqs[1]
+    try:
+        import os
+        os.remove(prot_id + '.fasta')
+    except:
+        pass
     toprint = []
     for i in range(len(seqs)-3):
         if seqs[i] == 'N' and seqs[i+1] != 'P' and seqs[i+2] == 'S' and seqs[i+3] != 'P':
