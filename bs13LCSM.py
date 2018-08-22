@@ -1,4 +1,21 @@
 __author__ = 'cromox'
+'''
+( http://rosalind.info/problems/lcsm/ )
+
+Problem
+
+A common substring of a collection of strings is a substring of every member of the collection. We say that a common
+substring is a longest common substring if there does not exist a longer common substring. For example, "CG" is a
+common substring of "ACGTACGT" and "AACCGTATA", but it is not as long as possible; in this case, "CGTA" is a longest
+common substring of "ACGTACGT" and "AACCGTATA".
+
+Note that the longest common substring is not necessarily unique; for a simple example, "AA" and "CC" are both longest
+common substrings of "AACC" and "CCAA".
+
+Given: A collection of k (k≤100) DNA strings of length at most 1 kbp each in FASTA format.
+Return: A longest common substring of the collection. (If multiple solutions exist, you may return any single solution.)
+'''
+
 
 def inputfile(filename):
     with open(filename) as f:
@@ -46,13 +63,13 @@ print('seqmin = ' + seqmin)
 xseqmins = [x for x in allseqs if x != seqmin]
 print()
 
-def longestcommonstring(lngmin, seqmin, notallseqs):
+def longestcommonstring(lngmin, seqmin, xseqmins):
     for j in range(lngmin, 1, -1):
         for s in range(0, lngmin - j + 1):
             if s < j + s:
                 # print(str(seqmin[s:j+s]) + ' / s = ' + str(s) + ' / j+s = ' + str(j+s))
                 comstring = seqmin[s:j+s]
-                if all(seq.find(comstring) >= 0 for seq in notallseqs):
+                if all(seq.find(comstring) >= 0 for seq in xseqmins):
                     return comstring
 
 longestcomm = longestcommonstring(lngmin, seqmin, xseqmins)
