@@ -15,7 +15,7 @@ Rosalind is inspired by Project Euler, Google Code Jam, and the ever growing mov
 ## http://rosalind.info/problems/list-view/?location=algorithmic-heights
 
     ID	    / Title
-1)  FIBO	/ Fibonacci Numbers  (//)
+1)  FIBO	/ Fibonacci Numbers  :heavy_check_mark:
 2)  BINS	/ Binary Search  (//)
 3)  DEG	    / Degree Array  (//)
 4)  INS	    / Insertion Sort  (//)
