@@ -16,30 +16,30 @@ Rosalind is inspired by Project Euler, Google Code Jam, and the ever growing mov
 
     ID	    / Title
 1)  FIBO	/ Fibonacci Numbers  :heavy_check_mark:
-2)  BINS	/ Binary Search  (//)
-3)  DEG	    / Degree Array  (//)
-4)  INS	    / Insertion Sort  (//)
-5)  DDEG	/ Double-Degree Array  (//)
-6)  MAJ	    / Majority Element  (//)
-7)  MER	    / Merge Two Sorted Arrays  (//)
-8)  2SUM	/ 2SUM   (//)
-9)  BFS	    / Breadth-First Search  (//)
-10) CC	    / Connected Components  (//)
-11) HEA	    / Building a Heap  (//)
-12) MS	    / Merge Sort    (//)
+2)  BINS	/ Binary Search  :heavy_check_mark:
+3)  DEG	    / Degree Array  :heavy_check_mark:
+4)  INS	    / Insertion Sort  :heavy_check_mark:
+5)  DDEG	/ Double-Degree Array  :heavy_check_mark:
+6)  MAJ	    / Majority Element  :heavy_check_mark:
+7)  MER	    / Merge Two Sorted Arrays  :heavy_check_mark:
+8)  2SUM	/ 2SUM   :heavy_check_mark:
+9)  BFS	    / Breadth-First Search  :heavy_check_mark:
+10) CC	    / Connected Components  :heavy_check_mark:
+11) HEA	    / Building a Heap  :heavy_check_mark:
+12) MS	    / Merge Sort    :heavy_check_mark:
 13) PAR	    / 2-Way Partition
-14) 3SUM	/ 3SUM  (//)
-15) BIP	    / Testing Bipartiteness  (//)
-16) DAG	    / Testing Acyclicity  (//)
-17) DIJ	    / Dijkstra's Algorithm  (//)
-18) HS	    / Heap Sort (//)
+14) 3SUM	/ 3SUM  :heavy_check_mark:
+15) BIP	    / Testing Bipartiteness  :heavy_check_mark:
+16) DAG	    / Testing Acyclicity  :heavy_check_mark:
+17) DIJ	    / Dijkstra's Algorithm  :heavy_check_mark:
+18) HS	    / Heap Sort :heavy_check_mark:
 19) INV	    / Counting Inversions
 20) PAR3	/ 3-Way Partition
 21) SQ	    / Square in a Graph
-22) BF	    / Bellman-Ford Algorithm  (//)
+22) BF	    / Bellman-Ford Algorithm  :heavy_check_mark:
 23) CTE	    / Shortest Cycle Through a Given Edge
-24) MED	    / Median  (//)
-25) PS	    / Partial Sort  (//)
+24) MED	    / Median  :heavy_check_mark:
+25) PS	    / Partial Sort  :heavy_check_mark:
 26) TS	    / Topological Sorting
 27) HDAG	/ Hamiltonian Path in DAG
 28) NWC	    / Negative Weight Cycle
@@ -53,8 +53,8 @@ Rosalind is inspired by Project Euler, Google Code Jam, and the ever growing mov
 ## http://rosalind.info/problems/list-view/?location=bioinformatics-stronghold
 
     ID      / Title   
-1) DNA      / Counting DNA Nucleotides
-2) RNA      / Transcribing DNA into RNA
+1) DNA      / Counting DNA Nucleotides  :heavy_check_mark:
+2) RNA      / Transcribing DNA into RNA  :heavy_check_mark:
 3) REVC     / Complementing a Strand of DNA
 4) FIB      / Rabbits and Recurrence Relations
 5) GC       / Computing GC Content
