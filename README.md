@@ -55,24 +55,24 @@ Rosalind is inspired by Project Euler, Google Code Jam, and the ever growing mov
     ID      / Title   
 1) DNA      / Counting DNA Nucleotides  :heavy_check_mark:
 2) RNA      / Transcribing DNA into RNA  :heavy_check_mark:
-3) REVC     / Complementing a Strand of DNA
-4) FIB      / Rabbits and Recurrence Relations
-5) GC       / Computing GC Content
-6) HAMM     / Counting Point Mutations
-7) PROT     / Translating RNA into Protein
-8) SUBS     / Finding a Motif in DNA
-9) IPRB     / Mendel's First Law
-10) CONS    / Consensus and Profile
+3) REVC     / Complementing a Strand of DNA  :heavy_check_mark:
+4) FIB      / Rabbits and Recurrence Relations  :heavy_check_mark:
+5) GC       / Computing GC Content  :heavy_check_mark:
+6) HAMM     / Counting Point Mutations  :heavy_check_mark:
+7) PROT     / Translating RNA into Protein  :heavy_check_mark:
+8) SUBS     / Finding a Motif in DNA  :heavy_check_mark:
+9) IPRB     / Mendel's First Law  :heavy_check_mark:
+10) CONS    / Consensus and Profile  :heavy_check_mark:
 11) FIBD    / Mortal Fibonacci Rabbits
-12) GRPH    / Overlap Graphs
-13) LCSM    / Finding a Shared Motif
-14) MPRT    / Finding a Protein Motif
+12) GRPH    / Overlap Graphs  :heavy_check_mark:
+13) LCSM    / Finding a Shared Motif  :heavy_check_mark:
+14) MPRT    / Finding a Protein Motif  :heavy_check_mark:
 15) MRNA    / Inferring mRNA from Protein
 16) ORF     / Open Reading Frames
 17) PERM    / Enumerating Gene Orders
 18) PRTM    / Calculating Protein Mass
 19) REVP    / Locating Restriction Sites
-20) SPLC    / RNA Splicing
+20) SPLC    / RNA Splicing  :heavy_check_mark:
 21) IEV     / Calculating Expected Offspring
 22) LIA     / Independent Alleles
 23) LEXF    / Enumerating k-mers Lexicographically
