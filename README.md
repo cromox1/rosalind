@@ -70,7 +70,7 @@ Rosalind is inspired by Project Euler, Google Code Jam, and the ever growing mov
 15) MRNA    / Inferring mRNA from Protein
 16) ORF     / Open Reading Frames
 17) PERM    / Enumerating Gene Orders
-18) PRTM    / Calculating Protein Mass
+18) PRTM    / Calculating Protein Mass  :heavy_check_mark:
 19) REVP    / Locating Restriction Sites
 20) SPLC    / RNA Splicing  :heavy_check_mark:
 21) IEV     / Calculating Expected Offspring
